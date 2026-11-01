@@ -1,0 +1,99 @@
+
+# ==========================================
+# ENVIRONMENT VARIABLES AND SECRETS
+# ==========================================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+credentials/
+application-local.properties
+application-local.yml
+application-local.yaml
+
+# ==========================================
+# JAVA / SPRING BOOT / MAVEN
+# ==========================================
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+hs_err_pid*
+.mvn/wrapper/maven-wrapper.jar
+
+# ==========================================
+# GRADLE
+# ==========================================
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# ==========================================
+# KOTLIN
+# ==========================================
+*.kotlin_module
+.kotlin/
+
+# ==========================================
+# FLUTTER / DART
+# ==========================================
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+coverage/
+*.freezed.dart
+*.g.dart
+
+# Keep dependency lock files
+!pubspec.lock
+
+# ==========================================
+# ANDROID
+# ==========================================
+local.properties
+*.iml
+.cxx/
+.externalNativeBuild/
+captures/
+*.apk
+*.aab
+
+# ==========================================
+# IDE
+# ==========================================
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ==========================================
+# OPERATING SYSTEM
+# ==========================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================================
+# DATABASE
+# ==========================================
+*.sqlite
+*.sqlite3
+*.db
+database_backup/
+db_backup/
+
+# ==========================================
+# PYTHON (IF USED IN SUPPORT SCRIPTS)
+# ==========================================
+__pycache__/
+*.py[cod]
+venv/
+.venv/
